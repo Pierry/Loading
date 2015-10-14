@@ -8,24 +8,8 @@ Yan can see the wiki for more detail.
 
 ![RotateLoading](https://github.com/yankai-victor/Loading/blob/master/images/RotateLoading.gif)
 
-
-[BookLoading](https://github.com/yankai-victor/Loading/wiki/BookLoading)
-
-![BookLoading](https://github.com/yankai-victor/Loading/blob/master/images/BookLoading.gif)
-
-[NewtonCradleLoading](https://github.com/yankai-victor/Loading/wiki/NewtonCradleLoading)
-
-![NewtonCradleLoading](https://github.com/yankai-victor/Loading/blob/master/images/NewtonCradleLoading.gif)
-
-
 Usage
 =======
-gradle
-
-```
-compile 'com.victor:lib:1.0.1'
-```
-
 
 License
 =======
