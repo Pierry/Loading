@@ -63,7 +63,7 @@ Add it in your build.gradle at the end of repositories:
 Step 2. Add the dependency in the form
 
         dependencies {
-          compile 'com.github.Pierry:Loading:v1.0'
+          compile 'com.github.Pierry:fit-loader:v1.1'
         }
 	
 License
