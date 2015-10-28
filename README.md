@@ -10,6 +10,46 @@ Yan can see the wiki for more detail.
 
 Usage
 =======
+
+XML:
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	xmlns:app="http://schemas.android.com/tools"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	>
+    	<com.github.pierry.fitloader.RotateLoading
+      		android:id="@+id/rotateloading"
+      		android:layout_width="80dp"
+      		android:visibility="gone"
+      		android:layout_height="80dp"
+      		app:loading_width="5dp"
+      		android:background="@android:color/transparent"
+      		android:layout_centerInParent="true"
+      	/>
+      	<LinearLayout
+      		android:layout_width="match_parent"
+      		android:layout_height="match_parent"
+      		android:id="@+id/ll"
+      		android:orientation="horizontal"
+      	>
+
+Activity
+
+    void showLoader() {
+    	rotateloading.start(false);
+    	rotateloading.setVisibility(View.VISIBLE);
+    	ll.setVisibility(View.INVISIBLE);
+    }
+    void hideLoader() {
+    	rotateloading.stop();
+    	rotateloading.setVisibility(View.INVISIBLE);
+    	ll.setVisibility(View.VISIBLE);
+    }
+
+Gradle
+=======
 To get a GitHub project into your build:
 
 Step 1. Add the JitPack repository to your build file
