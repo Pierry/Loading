@@ -1,4 +1,4 @@
-Loading
+fit-loader (forked - Loading)
 ================
 Loading is a poject with kinds of Android loading view.
 
@@ -10,7 +10,22 @@ Yan can see the wiki for more detail.
 
 Usage
 =======
+To get a GitHub project into your build:
 
+Step 1. Add the JitPack repository to your build file
+Add it in your build.gradle at the end of repositories:
+
+        repositories {
+          // ...
+          maven { url "https://jitpack.io" }
+        }
+
+Step 2. Add the dependency in the form
+
+        dependencies {
+          compile 'com.github.Pierry:Loading:v1.0'
+        }
+	
 License
 =======
 Copyright 2015 yankai-victor
