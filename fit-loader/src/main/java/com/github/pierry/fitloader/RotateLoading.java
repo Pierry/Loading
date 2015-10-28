@@ -1,4 +1,4 @@
-package com.victor.loading.rotate;
+package com.github.pierry.fitloader;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -13,8 +13,6 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
-
-import com.victor.loading.R;
 
 /**
  * RotateLoading
@@ -159,10 +157,8 @@ public class RotateLoading extends View {
   }
 
   private void startAnimator() {
-    ObjectAnimator scaleXAnimator =
-        ObjectAnimator.ofFloat(this, "scaleX", 0.0f, 1);
-    ObjectAnimator scaleYAnimator =
-        ObjectAnimator.ofFloat(this, "scaleY", 0.0f, 1);
+    ObjectAnimator scaleXAnimator = ObjectAnimator.ofFloat(this, "scaleX", 0.0f, 1);
+    ObjectAnimator scaleYAnimator = ObjectAnimator.ofFloat(this, "scaleY", 0.0f, 1);
     scaleXAnimator.setDuration(300);
     scaleXAnimator.setInterpolator(new LinearInterpolator());
     scaleYAnimator.setDuration(300);
@@ -173,10 +169,8 @@ public class RotateLoading extends View {
   }
 
   private void stopAnimator() {
-    ObjectAnimator scaleXAnimator =
-        ObjectAnimator.ofFloat(this, "scaleX", 1, 0);
-    ObjectAnimator scaleYAnimator =
-        ObjectAnimator.ofFloat(this, "scaleY", 1, 0);
+    ObjectAnimator scaleXAnimator = ObjectAnimator.ofFloat(this, "scaleX", 1, 0);
+    ObjectAnimator scaleYAnimator = ObjectAnimator.ofFloat(this, "scaleY", 1, 0);
     scaleXAnimator.setDuration(300);
     scaleXAnimator.setInterpolator(new LinearInterpolator());
     scaleYAnimator.setDuration(300);
