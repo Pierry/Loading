@@ -1,10 +1,7 @@
-fit-loader (forked - Loading)
+fit-loader ([forked from yankai-victor/Loading](https://github.com/yankai-victor/Loading))
 ================
-Loading is a poject with kinds of Android loading view.
 
-Yan can see the wiki for more detail.
-
-[RotateLoading](https://github.com/yankai-victor/Loading/wiki/RotateLoading)
+Loading view, fast, simple and easy integration
 
 ![RotateLoading](https://github.com/yankai-victor/Loading/blob/master/images/RotateLoading.gif)
 
