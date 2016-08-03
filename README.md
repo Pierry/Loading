@@ -1,4 +1,4 @@
-fit-loader ([forked from yankai-victor/Loading](https://github.com/yankai-victor/Loading))
+fit-loader
 ================
 
 Loading view, fast, simple and easy integration
