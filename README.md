@@ -3,7 +3,7 @@ fit-loader ([forked from yankai-victor/Loading](https://github.com/yankai-victor
 
 Loading view, fast, simple and easy integration
 
-![RotateLoading](https://github.com/yankai-victor/Loading/blob/master/images/RotateLoading.gif)
+![RotateLoading](https://raw.githubusercontent.com/Pierry/fit-loader/master/images/loading.gif)
 
 Usage
 =======
@@ -65,9 +65,9 @@ Step 2. Add the dependency in the form
 	
 License
 =======
-Copyright 2015 yankai-victor
+Copyright 2016
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License.
+Licensed under the Apache License, Version 2.0 (the "License");
 You may obtain a copy of the License in the LICENSE file, or at:
 
 http://www.apache.org/licenses/LICENSE-2.0
